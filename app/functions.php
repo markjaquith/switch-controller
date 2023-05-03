@@ -32,3 +32,15 @@ function setServerGroupBandwidth($groupId, $groupName, $down, $up) {
 	$unifi->login();
 	$unifi->edit_usergroup($groupId, $_ENV['UNIFI_SITE_NAME'], $groupName, $down, $up);
 }
+
+function blockClient($macId) {
+	$unifi = getUniFiClient();
+	$unifi->login();
+	$unifi->block_sta($macId);
+}
+
+function unblockClient($macId) {
+	$unifi = getUniFiClient();
+	$unifi->login();
+	$unifi->unblock_sta($macId);
+}
