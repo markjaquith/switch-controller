@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f515fd39f45b920a34cfd5ef8eef3f3",
+    "content-hash": "8c3c38d51640245058f1f1398eb58775",
     "packages": [
         {
             "name": "art-of-wifi/unifi-api-client",
-            "version": "v1.1.70",
+            "version": "v1.1.80",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Art-of-WiFi/UniFi-API-client.git",
-                "reference": "665fed93e21212146d21b4dfa6b6e8b53efc616f"
+                "reference": "9e092f8b8573910542425b31099bdfa6b38fc5bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Art-of-WiFi/UniFi-API-client/zipball/665fed93e21212146d21b4dfa6b6e8b53efc616f",
-                "reference": "665fed93e21212146d21b4dfa6b6e8b53efc616f",
+                "url": "https://api.github.com/repos/Art-of-WiFi/UniFi-API-client/zipball/9e092f8b8573910542425b31099bdfa6b38fc5bf",
+                "reference": "9e092f8b8573910542425b31099bdfa6b38fc5bf",
                 "shasum": ""
             },
             "require": {
@@ -39,7 +39,7 @@
                 {
                     "name": "Art of WiFi",
                     "email": "info@artofowifi.net",
-                    "homepage": "http://artofwifi.net"
+                    "homepage": "https://artofwifi.net"
                 }
             ],
             "description": "API client class for use with Ubiquiti's UniFi controller",
@@ -54,9 +54,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Art-of-WiFi/UniFi-API-client/issues",
-                "source": "https://github.com/Art-of-WiFi/UniFi-API-client/tree/v1.1.70"
+                "source": "https://github.com/Art-of-WiFi/UniFi-API-client/tree/v1.1.80"
             },
-            "time": "2021-03-22T10:58:20+00:00"
+            "time": "2023-03-28T10:22:42+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -126,29 +126,33 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.7.5",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "994ecccd8f3283ecf5ac33254543eb0ac946d525"
+                "reference": "dd3a383e599f49777d8b628dadbb90cae435b87e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/994ecccd8f3283ecf5ac33254543eb0ac946d525",
-                "reference": "994ecccd8f3283ecf5ac33254543eb0ac946d525",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/dd3a383e599f49777d8b628dadbb90cae435b87e",
+                "reference": "dd3a383e599f49777d8b628dadbb90cae435b87e",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9 || ^7.0 || ^8.0"
+                "php": "^7.2.5 || ^8.0"
             },
             "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.4.1",
-                "phpunit/phpunit": "^4.8.35 || ^5.7.27 || ^6.5.6 || ^7.0 || ^8.0 || ^9.0"
+                "bamarni/composer-bin-plugin": "^1.8.2",
+                "phpunit/phpunit": "^8.5.32 || ^9.6.3 || ^10.0.12"
             },
             "type": "library",
             "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": true
+                },
                 "branch-alias": {
-                    "dev-master": "1.7-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -163,11 +167,13 @@
             "authors": [
                 {
                     "name": "Johannes M. Schmitt",
-                    "email": "schmittjoh@gmail.com"
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh"
                 },
                 {
                     "name": "Graham Campbell",
-                    "email": "graham@alt-three.com"
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
                 }
             ],
             "description": "Option Type for PHP",
@@ -179,7 +185,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/php-option/issues",
-                "source": "https://github.com/schmittjoh/php-option/tree/1.7.5"
+                "source": "https://github.com/schmittjoh/php-option/tree/1.9.1"
             },
             "funding": [
                 {
@@ -191,7 +197,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-20T17:29:33+00:00"
+            "time": "2023-02-25T19:38:58+00:00"
         },
         {
             "name": "piphp/gpio",
@@ -574,5 +580,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }

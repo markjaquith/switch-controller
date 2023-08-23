@@ -10,6 +10,7 @@
     "require": {
         "piphp/gpio": "^0.4.0",
         "art-of-wifi/unifi-api-client": "^1.1",
-        "vlucas/phpdotenv": "^5.3"
+        "vlucas/phpdotenv": "^5.3",
+        "phpoption/phpoption": "^1.9"
     }
 }
